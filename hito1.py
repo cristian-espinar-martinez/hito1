@@ -5,7 +5,7 @@ menu=""
 
 #Creamos un bucle while true para que sea infinito y acabar cuando queramos 
 while True:
-    menu = int(input("Mostrar menu : 1-Cuadrado y 2-Rectangulo: "))
+    menu = int(input("Mostrar menu : 1-Cuadrado 2-Rectangulo y 3-Salir: "))
 #Seleccionamos el menu 2 para generar las formulas del rectangulo y su figura
     if menu == 1:
         lado = int(input("Dime el lado del cuadrado: "))
@@ -23,6 +23,7 @@ while True:
             print (f"*" * base)
 #Seleccionamos el menu 3 para salirnos del bucle while
     elif menu == 3:
+        print("Salir")
         break 
     else :
         print ("Error introduce un numero valido: ")
